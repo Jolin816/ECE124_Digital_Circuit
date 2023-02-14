@@ -11,9 +11,8 @@ ENTITY PB_Inverters IS
 END PB_Inverters;
 
 ARCHITECTURE gates OF PB_Inverters IS
-
-BEGIN 
-
-pb <= not(pb_n);
-
-END gates;
+	
+	-- circuit begins
+	BEGIN 
+		pb <= not(pb_n);
+	END gates;
